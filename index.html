@@ -2,6 +2,8 @@
     <head>
         <title> WeTube </title>
         <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <script src="./script.js"></script>
     </head>
 
@@ -9,12 +11,20 @@
         <div class="container layout">
             <div class="main">
                 <div class="video-wrapper">
-                    <img src="./assets/video.jpg" class="video-thumbnail" alt="video thumbanil" />
-                    <video class="video-player" controls autoplay="true" width="400" height="400"></video>
+                    <img src="./assets/play-icon.svg" alt="play" width="200px" height="200px" class="play-icon" />
+                    <img src="./assets/e1.jpg" class="video-thumbnail" alt="video thumbanil" />
+                    <video class="video-player" controls autoplay="true" width="400" height="400"></video> 
+                     
+                </div>
+
+                <div class="video-info">
+                    <h1 class="video-title"></h1>
                 </div>
 
                 <div class="comments">
-                    <p>comments</p>
+                    <p>
+                        comments
+                    </p>
                 </div>
             </div>
 
